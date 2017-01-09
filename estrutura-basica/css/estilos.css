@@ -1,11 +1,15 @@
 h1 {
+	font-family: Verdana;
+}
+
+#titulo {
 	color: blue;
 }
 
-p {
+.destaque {
 	color: red;
 }
 
-strong {
-	color: green;
+p.missao {
+	font-family: Arial;
 }
