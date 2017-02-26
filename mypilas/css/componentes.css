@@ -4,6 +4,8 @@
 .plano {
 	padding: 10px;
 	border: 1px solid #95a4a5;
+
+	font-size: 1.4rem; /* 14px */
 }
 
 .plano__cabecalho {
@@ -16,21 +18,23 @@
 	text-align: center;
 	line-height: 2.5;
 	font-weight: normal;
-	font-size: 28px;
+	font-size: 2em;
 }
 
 .plano__preco {
 	margin: 20px 0;
 
 	text-align: center;
-	font-size: 28px;
+	font-size: 2em;
 }
 
 .plano__caracteristicas {
 	padding: 0;
-	list-style: none;
-	
 	margin: 20px 0;
+
+	font-size: 1em;
+
+	list-style: none;
 }
 
 .plano__caracteristicas > li {
@@ -43,11 +47,11 @@
 
 
 /*----------------*\
-  PLANO
+  BOTAO
 \*----------------*/
 .botao {
 	display: inline-block;
-	padding: 12px 16px;
+	padding: 0.8em 1.2em;
 
 	background-color: #bbb;
 	color: #fff;
@@ -59,6 +63,7 @@
 	background-color: #aaa;
 	color: #fff;
 
+	font-size: 1em;
 	text-decoration: none;
 }
 
